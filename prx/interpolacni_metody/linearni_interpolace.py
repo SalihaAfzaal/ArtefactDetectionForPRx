@@ -5,7 +5,6 @@ from scipy.stats import pearsonr
 from prx.prx_calculation import calculate_pearsonr
 from chunking_signal.windows_and_mean import get_windows, counting_mean
 
-
 def spocitat_prx_doplnene_casti_interpolaci_linearni(art,icp,fs):
         """
         Vypočítejte Pearsonův korelační koeficient mezi dvěma poli převzorkovaného a interpolovaného arteriálního tlaku
