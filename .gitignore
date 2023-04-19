@@ -1,0 +1,5 @@
+.idea/
+data/__pycache__/
+plotting/__pycache__/
+prx/__pycache__/
+prx/interpolacni_metody/__pycache__/
