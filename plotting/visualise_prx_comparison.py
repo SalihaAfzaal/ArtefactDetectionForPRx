@@ -20,9 +20,10 @@ def plot_comparison(pr1, pr2, pr3):
     plt.title("Porovnání doplňovacích metod")
 
     plt.plot(pr1[0:420], color="violet", label="Prahovací metoda", linewidth=2)
-    plt.plot(pr2[0:420], color="#ff7487ff", label="Linearní interpolace", linewidth=3)
-    plt.plot(pr3[0:420],'--', color="4385ffff", label="Interpolace polynomem 2. řádu", linewidth=3)
+    plt.plot(pr2[0:420], color="olive", label="Linearní interpolace", linewidth=3)
+    plt.plot(pr3[0:420],'--', color="orange", label="Interpolace polynomem 2. řádu", linewidth=3)
     plt.plot(0,60)
+    plt.ylim(-1.2,1.2)
     plt.xlabel("Čas(min)")
     plt.ylabel("PRx")
     plt.legend()
